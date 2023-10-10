@@ -1,4 +1,4 @@
-package dataBase.dataBase;
+package dataBase.dataBase.Test;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +11,7 @@ import java.util.List;
 public class Test {
     @GetMapping("/test")
     List<String> Test(){
-        return List.of("Funcionando" , "Perfectamente");
+        return List.of("Funcionando en puerto 4000" , "Estado: 200 Ok");
     }
+
 }
